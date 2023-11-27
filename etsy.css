@@ -1,0 +1,48 @@
+/* importlar */
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/heart.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css');
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right.css');
+
+.item{
+
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+}
+.bigg{
+    height: 150px;
+    width: 150px;
+}
+.btn:hover i.gg-heart {
+    color: red; 
+    
+}
+/* butona hover vermek ucun istifade olunan */
+.custom-button:hover {
+    background-color:rgb(233,233,233);
+    margin-bottom: 5px;
+  }
+ .card:hover{
+    background-color:rgb(233,233,233);
+    
+ }
+ .akulaa:hover{
+    background-color:rgb(233,233,233);
+    opacity: 0.7;
+
+ }
+ .akula:hover{
+    background-color: rgb(63,63,63);
+ }
+ .linkler {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .linkler a {
+    font-size: x-small;
+    text-decoration: none;
+    
+    
+    color: white; 
+  }
